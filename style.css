@@ -2,6 +2,63 @@ body {
     background: linear-gradient(to right, rgba(237, 140, 29, 0.654), rgb(163, 65, 248));
 }
 
-img { 
-    position: absolute; width: 10 px; /*transform: scale(0.1);*/
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo {
+    width: 40%; /* ширина контейнера фотографії */
+    margin: 0 auto; /* центрування контейнера по горизонталі */
+    margin-left: 40px; /* зсув зображення ліворуч */
+}
+
+.photo img {
+    width: 40%; /* ширина зображення на 100% */
+    height: auto; /* висота авто */
+    margin-right: 20px; /* відступ справа */
+    margin-left: -20px; /* зсув зображення ліворуч */
+}
+
+.price {
+    /* ціни */
+}
+
+.stars {
+    /* зірки або рейтинг */
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    justify-content: flex-end;
+    order: 2;
+    margin-right: 5%; 
+}
+
+.button {
+    height: 100px;
+    width: 300px;
+    display: flex;
+    justify-content: center; /* текст по центру горизонталі */
+    align-items: center; /* текст по центру вертикалі */
+    background-color: #fbd08f;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 30px; /* значення проміжку */
+}
+
+.button:hover {
+    background-color: #d8e5a3;
+}
+
+.caption {
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    margin-top: 10px;
 }
