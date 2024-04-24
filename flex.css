@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    font-size: 50px;
+    background: linear-gradient(to right, rgba(244, 118, 127, 0.654), rgb(235, 67, 117));
+    flex-direction: column;
+    justify-content: space-between;
+    gap:20px;
+}
+div {
+    border: 2px solid blue;
+}
