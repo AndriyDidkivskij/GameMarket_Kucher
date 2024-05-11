@@ -47,10 +47,11 @@ if (itemsDiv) {
         // console.log(item)
         // itemsDiv.innerText += item
         // itemsDiv.innerHTML += `<div class = "item">${item}</div>`
+        //Виводимо на веб сторінку елемент масиву в блок з класом item
         itemsDiv.innerHTML += 
         `
         <div class = "item">
-            <h2>Товар №${index}</h2>
+            <h2>Товар №${index+1} з ${itemsArray.length}</h2>
             <p>${item}</p>
         </div>
         `
