@@ -226,7 +226,7 @@ if (itemsDiv) {
 
                 <!-- Блок зображення товару -->
                 <div class="item-image">
-                    <img src="${item.image}" alt="${item.name}">
+                    <img src="${item.image}" alt="${item.title}">
                 </div>
 
                 <!-- Блок з оплатою частинами -->
